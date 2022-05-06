@@ -41,7 +41,7 @@
 	position: absolute;
 	content: '';
 	width: 900px;
-	height: 2px;
+	height: 3px;
 	background: #E7E5FF;
 	top: 0;
 }
@@ -50,7 +50,7 @@
 	position: absolute;
 	content: '';
 	width: 1400px;
-	height: 2px;
+	height: 3px;
 	background: #E7E5FF;
 	bottom: 0;
 	right: -20%;
