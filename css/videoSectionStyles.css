@@ -15,4 +15,9 @@
 
 .video-section-video {
 	grid-area: video-section-video;
+	margin: 0 auto;
+	height: 730px;
+	width: 1300px;
+	background-image: url(../img/video-section-img.png);
+	background-size: cover;
 }
