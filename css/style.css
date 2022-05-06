@@ -1,0 +1,150 @@
+/*Imports*/
+@import url(./headerStyles.css);
+@import url(./inNumbersStyles.css);
+@import url(./featuresStyles.css);
+@import url(./videoSectionStyles.css);
+
+
+/*General styles*/
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: #1A1930;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: Prompt;
+}
+
+body, html {
+	scroll-behavior: smooth;
+	color: #1A1930;
+}
+
+/*Other styles*/
+
+button {
+	font-family: Prompt;
+	cursor: pointer;
+}
+
+.blocks-title {
+	font-family: Poppins;
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 77px;
+}
+
+.blocks-subtitle  {
+	font-family: Poppins;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.tabs-name {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
+}
+.tabs-descr {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;	
+}
+
+.white-btn {
+	/*Form and colors*/
+	height: 60px;
+	width: 139px;
+	border: 2px solid rgba(255,255,255, .4);
+	box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, .3);;
+	background-color: rgba(255,255,255, .4);
+	border-radius: 5px;
+	/*Inner text*/
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color:#1A1930;
+}
+
+.blue-button {
+	/*Form and colors*/
+	height: 60px;
+	width: 217px;
+	background-color: #6259EA;
+	border-radius: 5px;
+
+	/*Inner text*/
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #fff;
+}
+
+.feature-buy-btn{
+	height: 60px;
+	width: 139px;
+}
+
+.feature-descr {
+	padding: 23px 0 33.5px 0;
+	height: 120px;
+	width: 320px;	
+}
+
+.feature-list-item{
+	width: 300px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.video-title{
+	position: relative;
+	font-family: Poppins;
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0em;
+	
+}
+.video-title::after{
+	position: absolute;
+	content: '';
+	width: 900px;
+	height: 2px;
+	background: #E7E5FF;
+	top: 50%;
+	right: -37px;
+}

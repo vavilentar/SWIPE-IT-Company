@@ -1,0 +1,70 @@
+.features {
+	display: grid;
+	max-height: 978px;
+	padding-bottom: 143px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0fr 1fr;
+	gap: 100px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"features-title features-title features-title"
+		"features-tabs features-tabs features-tabs";
+}
+
+.features-title {
+	grid-area: features-title;
+	display: flex;
+	justify-content: space-between;
+	height: 210px;
+	width: 1320px;
+	margin: 0 auto;
+}
+
+.features-tabs {
+	grid-area: features-tabs;
+	height: 468px;
+	width: 1300px;
+	margin: 0 auto;
+	border: 2px solid rgba(255,255,255, .4);
+	box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, .3);;
+	background-color: rgba(255,255,255, .4);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.features-main-title {
+	height: 154px;
+	width: 553px;
+}
+
+.feature{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 358px;
+}
+
+.feature-list-item {
+	padding: 7.5px 0;
+}
+
+.feature-bg-img-1{
+	position: absolute;
+	z-index: -1;
+	left: -50%;
+}
+.feature-bg-img-2{
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+}
+.feature-bg-img-3{
+	position: absolute;
+	z-index: -1;
+	top: -40%;
+}
+
+.f-icon-img {
+	padding-right: 10px;
+}

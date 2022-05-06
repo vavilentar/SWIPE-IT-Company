@@ -1,0 +1,18 @@
+.video-section {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.4fr 1.6fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"video-section-title"
+		"video-section-video";
+}
+
+.video-section-title {
+	grid-area: video-section-title;
+}
+
+.video-section-video {
+	grid-area: video-section-video;
+}
