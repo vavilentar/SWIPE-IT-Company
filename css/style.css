@@ -5,6 +5,7 @@
 @import url(./videoSectionStyles.css);
 @import url(./technologyBlockStyles.css);
 @import url(./sectionsStyles.css);
+@import url(./pricePlansStyles.css);
 
 
 /*General styles*/
@@ -187,5 +188,19 @@ button {
 	width: 900px;
 	height: 3px;
 	background: #E7E5FF;
-	left: 0;
+	right: 0;
+}
+
+.pp-main-title{
+	display: flex;
+	align-items: center;
+}
+
+.pp-main-title::after {
+	position: absolute;
+	content: '';
+	width: 900px;
+	height: 3px;
+	background: #E7E5FF;
+	right: 0;
 }

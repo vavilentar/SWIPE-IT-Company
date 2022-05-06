@@ -1,6 +1,5 @@
 .sections-section {
 	display: grid;
-	margin-bottom: 100px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 0.4fr 1.6fr;
 	gap: 0px 0px;
@@ -29,5 +28,5 @@
 
 .sect-img{
 	position: absolute;
-	right: 0;
+	top: -5%;
 }
