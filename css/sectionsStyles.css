@@ -1,0 +1,33 @@
+.sections-section {
+	display: grid;
+	margin-bottom: 100px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.4fr 1.6fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"sections-title sections-title"
+		"sections-info sections-img";
+}
+
+.sections-title {
+	grid-area: sections-title;
+}
+
+.sections-info {
+	grid-area: sections-info;
+}
+
+.sections-img {
+	grid-area: sections-img;
+	position: relative;
+}
+
+.sect-tab-descr {
+	padding: 53px 0 51px 0;
+}
+
+.sect-img{
+	position: absolute;
+	right: 0;
+}

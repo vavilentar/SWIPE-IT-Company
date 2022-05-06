@@ -1,0 +1,33 @@
+.technology-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.4fr 4.6fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"technology-title technology-title"
+		"technology-img technology-info";
+}
+
+.technology-title {
+	grid-area: technology-title;
+}
+
+.technology-img {
+	grid-area: technology-img;
+	position: relative;
+}
+.tech-img{
+	position: absolute;
+	right: 10%;
+}
+.technology-info {
+	grid-area: technology-info;
+	height: 101px;
+	width: 704px;
+	margin-right: 130px;
+}
+
+.tech-tab-descr{
+	padding: 53px 0 51px 0;
+}

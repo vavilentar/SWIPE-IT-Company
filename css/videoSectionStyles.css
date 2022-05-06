@@ -1,5 +1,6 @@
 .video-section {
 	display: grid;
+	padding-bottom: 100px;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.4fr 1.6fr;
 	gap: 0px 0px;
