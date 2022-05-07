@@ -17,13 +17,14 @@
 }
 
 .price-plans-title {
+	margin-top: 80px;
 	grid-area: price-plans-title;
 	position: relative;
 }
 
 .price-plans-tabs {
 	grid-area: price-plans-tabs;
-	margin-top: 80px;
+	margin: 80px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
