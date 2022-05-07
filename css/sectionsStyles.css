@@ -11,11 +11,12 @@
 
 .sections-title {
 	grid-area: sections-title;
+	flex-direction: row-reverse;
 }
 
 .sections-info {
 	grid-area: sections-info;
-	margin: 25px 0;
+	margin: 15px 0 25px 0;
 }
 
 .sections-img {

@@ -6,6 +6,7 @@
 @import url(./technologyBlockStyles.css);
 @import url(./sectionsStyles.css);
 @import url(./pricePlansStyles.css);
+@import url(./joinTeamStyles.css);
 
 
 /*General styles*/
@@ -195,7 +196,7 @@ button {
 	width: 900px;
 	height: 3px;
 	background: #E7E5FF;
-	right: 0;
+	left: 0;
 }
 
 .pp-main-title{
@@ -214,4 +215,9 @@ button {
 
 span {
 	color: #ABAABB;
+}
+
+.jt-btn{
+	height: 60px;
+	width: 205px;
 }
