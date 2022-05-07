@@ -8,6 +8,7 @@
 @import url(./pricePlansStyles.css);
 @import url(./joinTeamStyles.css);
 @import url(./faqStyles.css);
+@import url(./peopleTalkStyles.css);
 
 
 /*General styles*/
@@ -221,4 +222,13 @@ span {
 .jt-btn{
 	height: 60px;
 	width: 205px;
+}
+
+.people-talk-title:after{
+	position: absolute;
+	content: '';
+	width: 900px;
+	height: 3px;
+	background: #E7E5FF;
+	right: 0;
 }

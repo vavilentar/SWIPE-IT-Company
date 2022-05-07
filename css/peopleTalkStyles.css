@@ -1,0 +1,86 @@
+.people-talk-section {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.4fr 1.6fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"people-talk-title-section"
+		"feedbacks-section";
+}
+
+.people-talk-title-section {
+	grid-area: people-talk-title-section;
+	position: relative;
+
+}
+
+.feedbacks-section {
+	grid-area: feedbacks-section;
+	margin: 0 auto;
+}
+
+.people-talk-img{
+	position: absolute;
+	left: 15%;
+	top: -100%;
+	z-index: -1;
+}
+
+.feedback-tab {
+	margin: 100px 0;
+	height: 558px;
+	width: 1298px;
+	border: 2px solid rgba(255,255,255, .4);
+	box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, .3);;
+	background-color: rgba(255,255,255, .4);
+	border-radius: 5px;
+	display: flex;
+}
+.feedback-photo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 353px;
+	width: 200px;
+}
+.links {
+	padding-top: 31px;
+}
+.feedback-link {
+}
+.feedback-info {
+	height: 353px;
+	width: 828px;
+	padding-left: 50px;
+}
+.feedback-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+.author-name {
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 56px;
+	color: #1A1930;
+}
+.author-position {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color:#ABAABB;
+}
+.feedback-grade {
+}
+.feedback-text {
+	padding-top: 68px;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
+}
+
+.feedback-wrapper{
+	display: flex;
+	padding: 50px 0 0 110px;
+}
