@@ -15,6 +15,7 @@
 
 .sections-info {
 	grid-area: sections-info;
+	margin: 25px 0;
 }
 
 .sections-img {
@@ -28,5 +29,6 @@
 
 .sect-img{
 	position: absolute;
-	top: -5%;
+	top: 10%;
+	right: 20%;
 }

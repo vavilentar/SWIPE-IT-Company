@@ -9,10 +9,84 @@
 		"price-plans-tabs";
 }
 
+.pp-img{
+	position: absolute;
+	z-index: -1;
+	left: -5%;
+	top: -50%;
+}
+
 .price-plans-title {
 	grid-area: price-plans-title;
+	position: relative;
 }
 
 .price-plans-tabs {
 	grid-area: price-plans-tabs;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pp-tab{
+	height: 496px;
+	width: 640px;
+	border: 2px solid rgba(255,255,255, .4);
+	box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, .3);;
+	background-color: rgba(255,255,255, .4);
+	border-radius: 5px;
+
+	margin: 0 10px;
+}
+
+.purple-tab-price{
+	position: relative;
+	border:2px solid #6259EA;
+}
+
+.pro-price-img{
+	position: absolute;
+	z-index: -1;
+	right: -20%;
+	top: 25%;
+}
+
+.pp-tabs-list{
+	padding: 45px 0 0 52px;
+}
+
+.pp-tab-list-item {
+	padding: 6px 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.pp-tabs-name{
+	font-family: Poppins;
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 50px;
+	padding: 45px 0 0 52px;
+}
+
+.pp-tabs-price{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 32px;	
+}
+
+.price-month{
+	font-size: 79px;
+	font-weight: 400;
+	line-height: 88px;
+	color:#2d2b5c;
+
+}
+
+.price-month span{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
 }
