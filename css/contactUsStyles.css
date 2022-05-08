@@ -27,6 +27,7 @@
 .contact-us-form {
 	grid-area: contact-us-form;
 	height: 465px;
+	position: relative;
 }
 
 .contact-us-main-title{
@@ -39,6 +40,12 @@
 	position: absolute;
 	top: -50%;
 	left: -5%;
+	z-index: -1;
+}
+
+.contact-form-img{
+	position: absolute;
+	right: 0;
 	z-index: -1;
 }
 
