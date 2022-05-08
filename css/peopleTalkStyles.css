@@ -22,8 +22,8 @@
 
 .people-talk-img{
 	position: absolute;
-	left: 15%;
-	top: -100%;
+	left: 10%;
+	top: -50%;
 	z-index: -1;
 }
 
@@ -47,8 +47,7 @@
 .links {
 	padding-top: 31px;
 }
-.feedback-link {
-}
+
 .feedback-info {
 	height: 353px;
 	width: 828px;
@@ -71,8 +70,7 @@
 	line-height: 25px;
 	color:#ABAABB;
 }
-.feedback-grade {
-}
+
 .feedback-text {
 	padding-top: 68px;
 	font-size: 30px;
