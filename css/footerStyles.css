@@ -1,0 +1,146 @@
+.footer {
+	height: 429px;
+	width: 1440px;
+	background-color: #1A1930;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"footer-info-block footer-menu-block";
+}
+
+.footer-info-block {
+	height: 277px;
+	width: 550px;
+	padding: 0 0 0 60px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"info-block-logotype"
+		"info-block-adresses"
+		"info-block-rights";
+	grid-area: footer-info-block;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.info-block-logotype {
+	grid-area: info-block-logotype;
+}
+
+.info-block-adresses {
+	grid-area: info-block-adresses;
+}
+
+.info-block-rights {
+	grid-area: info-block-rights;
+}
+
+.footer-menu-block {
+	height: 277px;
+	width: 660px;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"about-menu feedback-menu social-menu";
+	grid-area: footer-menu-block;
+}
+
+.footer-menu-block a{
+	color: white;
+}
+
+.about-menu {
+	grid-area: about-menu;
+}
+
+.feedback-menu {
+	grid-area: feedback-menu;
+}
+
+.social-menu {
+	grid-area: social-menu;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+}
+.footer__container {
+}
+.footer-info-block {
+}
+.info-block-logotype {
+}
+.info-block-adresses {
+}
+.adresses {
+}
+.webdesigner-link{
+	color: #6259EA;
+}
+.info-block-rights {
+}
+.rights {
+}
+.constructor-link {
+	color: #6259EA;
+}
+.footer-menu-block {
+}
+.footer-menu-img {
+	position: absolute;
+	top: -35%;
+	right: -35%;
+	z-index: 2;
+}
+.about-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+.about-menu::after{
+	position: absolute;
+	content: '';
+	width: 890px;
+	height: 2px;
+	background: #E7E5FF;
+	bottom: 0;
+	z-index: 1;
+}
+.about-menu::before{
+	position: absolute;
+	content: '';
+	width: 890px;
+	height: 2px;
+	background: #E7E5FF;
+	top: 0;
+	z-index: 1;
+}
+
+.footer-menu-link {
+	padding: 5px 0;
+}
+.feedback-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.social-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
