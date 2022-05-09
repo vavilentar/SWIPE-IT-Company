@@ -260,12 +260,13 @@ span {
 @media (max-width: 426px) {
 	[class*="__container"] {
 		max-width: 425px;
+		overflow: hidden;
 	}
 	.features-main-title{
 		font-size: 44px;
 		line-height: 59px;
-		margin: 0 20px;
 		width: 420px;
+		text-align: center;
 	}
 	.features-title{
 		height: 100px;
@@ -289,9 +290,39 @@ span {
 	}
 	.tech-title {
 		padding: 0 10px;
+		text-align: center;
+	}
+	.sections-title {
+		font-size: 40px;
+		padding: 0 10px;
 	}
 	.pp-main-title::after {
 		height: 0;
 		width: 0;
+	}
+	.tabs-descr {
+		width: 290px;
+    		padding: 10px 0 0 20px;
+	}
+	.tabs-name{
+		text-align: center;
+	}
+	.tech-tab-descr{
+		padding: 15px 0 50px 10px;
+		width: 400px;
+	}
+	.sect-tab-descr{
+		padding: 15px 0 50px 10px;
+		width: 400px;
+	}
+	.jt-main-title{
+		font-size: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.faq-main-title {
+		font-size: 44px;
+		line-height: 40px;
+		text-align: center;
 	}
 }

@@ -12,6 +12,7 @@
 .sections-title {
 	grid-area: sections-title;
 	flex-direction: row-reverse;
+	justify-content: center;
 }
 
 .sections-info {
@@ -48,7 +49,5 @@
 	.sections-info {
 		margin: 0px 0 0px 0;
 	}
-	.sect-tab-descr{
-		padding: 15px 0 51px 0;
-	}
+
 }

@@ -60,3 +60,33 @@
 	font-weight: 400;
 	line-height: 25px;
 }
+
+@media (max-width: 426px) {
+	.join-team-section{
+		grid-template-rows: 0fr 0.6fr;
+	}
+	.team-profiles{
+		width: 420px;
+	}
+	.join-team-section-title{
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.profile{
+		width: 200px;
+		height: 200px;
+	}
+	.profile-img{
+		width: 60%;
+	}
+	.profile-position{
+		font-size: 15px;
+    		line-height: 20px;
+	}
+	.prev {
+		display: none;
+	}
+	.next {
+		display: none;
+	}
+}

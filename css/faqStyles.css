@@ -55,3 +55,25 @@
 .faq-icon{
 	margin-right: 25px;
 }
+
+@media (max-width: 426px) {
+	.faq-section{
+		grid-template-rows: 0fr 0fr;
+	}
+	.faq-img {
+		width: 100%;
+		top: 0;
+	}
+	.faq-questions-section{
+		margin: 50px auto;
+	}
+	.question-text{
+		padding: 15px 0;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 30px;
+	}
+	.faq-icon{
+		width: 10%;
+	}
+}
