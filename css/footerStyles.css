@@ -77,28 +77,15 @@
 	display: flex;
 	align-items: center;
 }
-.footer__container {
-}
-.footer-info-block {
-}
-.info-block-logotype {
-}
-.info-block-adresses {
-}
-.adresses {
-}
+
 .webdesigner-link{
 	color: #6259EA;
 }
-.info-block-rights {
-}
-.rights {
-}
+
 .constructor-link {
 	color: #6259EA;
 }
-.footer-menu-block {
-}
+
 .footer-menu-img {
 	position: absolute;
 	top: -35%;

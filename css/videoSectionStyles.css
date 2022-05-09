@@ -22,3 +22,9 @@
 	background-image: url(../img/video-section-img.png);
 	background-size: cover;
 }
+
+@media (max-width: 426px) {
+	.video-section{
+		display: none;
+	}
+}

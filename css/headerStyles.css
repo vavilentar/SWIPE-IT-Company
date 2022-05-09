@@ -46,8 +46,6 @@
 	line-height: 25px;
 }
 
-
-
 .header-main-title{
 	font-family: Poppins;
 	font-size: 80px;
@@ -80,4 +78,26 @@
 .social-icons{
 	display: flex;
 	flex-direction: column;
+}
+
+@media (max-width: 425px) {
+	.header-main-title {
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 44px;
+		width: 420px;
+		padding: 100px 0 0 15px;
+	}
+	.header-menu {
+		display: none;
+	}
+	.header-background-img{
+		left: -50%;
+	}
+	.social-links {
+		display: none;
+	}
+	.watch-video-link {
+		padding: 0 20px;
+	}
 }

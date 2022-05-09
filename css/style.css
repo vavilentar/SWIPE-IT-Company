@@ -256,3 +256,42 @@ span {
 	height: 60px;
 	width: 207px;
 }
+
+@media (max-width: 426px) {
+	[class*="__container"] {
+		max-width: 425px;
+	}
+	.features-main-title{
+		font-size: 44px;
+		line-height: 59px;
+		margin: 0 20px;
+		width: 420px;
+	}
+	.features-title{
+		height: 100px;
+	}
+
+	.video-title::after{
+		height: 0;
+		width: 0;
+	}
+	.tech-title::after{
+		height: 0;
+		width: 0;
+	}
+
+	.feature-buy-btn {
+		margin: 5px 15px;
+	}
+	.sections-title::before{
+		width: 0;
+		height: 0;
+	}
+	.tech-title {
+		padding: 0 10px;
+	}
+	.pp-main-title::after {
+		height: 0;
+		width: 0;
+	}
+}

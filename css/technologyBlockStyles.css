@@ -31,3 +31,18 @@
 .tech-tab-descr{
 	padding: 53px 0 51px 0;
 }
+
+@media (max-width: 426px) {
+	.technology-info {
+		width: 420px;
+	}
+	.tech-img{
+		top: -30%;
+		z-index: -1;
+		width: 400px;
+		right: auto;
+	}
+	.tech-tab-descr{
+		padding: 15px 0 51px 0;
+	}
+}

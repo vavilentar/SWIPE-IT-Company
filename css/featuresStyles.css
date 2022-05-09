@@ -1,6 +1,5 @@
 .features {
 	display: grid;
-	max-height: 978px;
 	padding-bottom: 143px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 0fr 1fr;
@@ -67,4 +66,33 @@
 
 .f-icon-img {
 	padding-right: 10px;
+}
+
+@media (max-width: 426px) {
+	.features-tabs{
+		width: 350px;
+		height: 1080px;
+		flex-direction: column;
+		margin: 0 20px;
+	}
+	.features-title {
+		width: 420px;
+		flex-direction: column;
+	}
+	.features {
+		padding-bottom: 69px;
+	}
+	.feature{
+		height: auto;
+	}
+	.feature-bg-img-2{
+		top: 0;
+    		right: -15%;
+	}
+	.feature-bg-img-3 {
+		top: -10%;
+	}
+	.feature-bg-img-1 {
+		left: -25%;
+	}
 }

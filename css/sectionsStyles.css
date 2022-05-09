@@ -33,3 +33,22 @@
 	top: 10%;
 	right: 20%;
 }
+
+@media (max-width: 426px)
+{
+	.sections-section {
+		display: grid;
+		grid-template-columns: 1fr 0fr;
+		grid-template-rows: 0.4fr 4.6fr;
+	}
+
+	.sect-img {
+		z-index: -1;
+	}
+	.sections-info {
+		margin: 0px 0 0px 0;
+	}
+	.sect-tab-descr{
+		padding: 15px 0 51px 0;
+	}
+}
