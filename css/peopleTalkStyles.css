@@ -82,3 +82,27 @@
 	display: flex;
 	padding: 50px 0 0 110px;
 }
+
+@media (max-width: 426px) {
+	.feedback-wrapper{
+		flex-direction: column;
+		padding: 15px 0 0 15px;
+
+	}
+	.feedback-info {
+		padding-left: 0px;
+		width: 400px;
+	}
+	.feedback-text{
+		padding-top: 15px;
+	}
+	.feedback-tab{
+		width: 400px;
+	}
+	.feedback-name{
+		flex-direction: column;
+	}
+	.feedback-photo{
+		width: auto;
+	}
+}
